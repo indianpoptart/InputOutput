@@ -1,12 +1,17 @@
 InputOutput
 ===========
 
-Use for input outprut in windowed GUI in java
+Use for input output in windowed GUI in java
 Use as follows:
 
-OPENING FILES:
+To open a file
+```java
 String {String Name} = IO.openFile();
+```
 
-Saving Files:
+
+To save a file:
+```java
 String save = "" + {variable name of text you want to save};
 IO.saveFile(save);
+```
