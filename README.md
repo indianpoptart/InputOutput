@@ -6,7 +6,7 @@ Use as follows:
 
 To open a file
 ```java
-String {String Name} = IO.openFile();
+String io = IO.openFile();
 ```
 
 
